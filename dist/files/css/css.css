@@ -1,0 +1,155 @@
+:root {
+    --principalcolor: #1f1f1f;
+    --secondarycolor: #2b2a2a;
+    --servercolor: purple;
+}
+
+body {
+    user-select: none;
+    display: none;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1600px;
+    height: 900px;
+    background-color: var(--principalcolor);
+    border: none;
+    border-radius: 10px;
+}
+
+.header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1500px;
+    height: 100px;
+    background-color: var(--secondarycolor);
+    border: none;
+    border-radius: 10px;
+}
+
+.header .logo {
+    position: absolute;
+    left: 94%;
+    top: -120%;
+    width: 200px;
+}
+
+.header h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.header .line {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1300px;
+    height: 5px;
+    background-color: var(--servercolor);
+    border-radius: 20px;
+}
+
+.container-ul {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1500px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: var(--secondarycolor);
+}
+
+.jobs-ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 1300px;
+    height: 700px;
+    max-height: 700px;
+    max-width: 1300px;
+    transform: translate(-50%, -50%);
+    border: 2px solid transparent;
+}
+
+.jobs-ul ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.jobs-ul ul li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: var(--principalcolor);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.jobs-ul ul li h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.jobs-ul ul li p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.jobs-ul ul li img {
+    width: 200px;
+    height: 100px;
+    max-width: 200px;
+    max-height: 100px;
+    padding: 25px;
+}
+
+.jobs-ul ul li button {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    letter-spacing: 4px;
+    background-color: var(--servercolor);
+    border: none;
+    border-radius: 10px;
+    border-color: transparent;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.jobs-ul ul li button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--servercolor), 0 0 10px var(--servercolor), 0 0 40px var(--servercolor); /* Efecto de resplandor */
+
+}
