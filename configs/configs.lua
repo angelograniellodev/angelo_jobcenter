@@ -8,14 +8,14 @@ Config.Credits = true
 Config.BlipEnabled = true
 
 Config.Blips = {
-    {title="Oficina De Empleo", colour=3, id=407, scale = 1.0, x = 264.4960, y = -964.4634, z = 31.2235}, 
+    {title="Oficina De Empleo", colour=3, id=407, scale = 1.0, x = -264.4960, y = -964.4634, z = 31.2235}, 
 }
 
 Config.displayText = true 
 Config.displayDistance = 5.0 
 Config.displayColor = "~p~"
 Config.Peds = {
-    {-264.49, -964.57, 31.22, 206.16, 0x47E4EEA0,"ig_andreas", "TRABAJOS DISPONIBLES", "mini@strip_club@idles@bouncer@base", "base"}
+    {-264.49, -964.57, 31.22, 206.16, 0x47E4EEA0,"ig_andreas", "PRESIONA E PARA VER LOS TRABAJOS DISPONIBLES", "mini@strip_club@idles@bouncer@base", "base"}
 }
 
 Config.DrawMarker = true 

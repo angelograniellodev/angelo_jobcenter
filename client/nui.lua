@@ -21,7 +21,7 @@ RegisterNUICallback('getjob', function(data)
 	if Config.NotifyEnabled then 
 	NotifyClient("CENTRO DE TRABAJOS", "Tines un nuevo trabajo", "success")
 	end
-	TriggerServerEvent("angelo_jobcenter:getjob", data.jobName)
+	TriggerServerEvent("angelo_jobcenter:getjob", data.data)
 end)
 
 RegisterNUICallback('nuioff', function(data)
